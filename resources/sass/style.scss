@@ -1,0 +1,16 @@
+header a.active {
+  border-bottom: 2px solid #fff;
+}
+
+.showEntry {
+  opacity: 0;
+  transform: translateX(-30px);
+  animation: showEntry 0.3s forwards;
+}
+
+@keyframes showEntry {
+  to {
+    opacity: initial;
+    transform: translateX(0px);
+  }
+}
